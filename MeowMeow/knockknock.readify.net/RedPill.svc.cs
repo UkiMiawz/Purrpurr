@@ -26,9 +26,17 @@ namespace knockknock.readify.net
 
         public long FibonacciNumber(long n)
         {
-            if (n < 2)
-                return n;
-            return FibonacciNumber(n - 1) + FibonacciNumber(n - 2);
+            var previousValue = -1;
+            var currentResult = 1;
+
+            for (var i = 0; i <= n; ++i)
+            {
+                var sum = currentResult + previousValue;
+                previousValue = currentResult;
+                currentResult = sum;
+            }
+
+            return currentResult;
         }
 
         public Task<long> FibonacciNumberAsync(long n)

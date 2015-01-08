@@ -13,3 +13,11 @@ C:\Users\melcec\Documents\Visual Studio 2013\Projects\MeowMeow\MeowMeow\knockkno
 C:\Users\melcec\Documents\Visual Studio 2013\Projects\MeowMeow\MeowMeow\knockknock.readify.net\obj\Debug\WCFServiceWebRole1.dll
 C:\Users\melcec\Documents\Visual Studio 2013\Projects\MeowMeow\MeowMeow\knockknock.readify.net\obj\Debug\WCFServiceWebRole1.pdb
 C:\Users\melcec\Documents\Visual Studio 2013\Projects\MeowMeow\MeowMeow\knockknock.readify.net\obj\Debug\knockknock.readify.net.csprojResolveAssemblyReference.cache
+D:\Projects\Bapet\RedPill\MeowMeow\knockknock.readify.net\bin\WCFServiceWebRole1.dll.config
+D:\Projects\Bapet\RedPill\MeowMeow\knockknock.readify.net\bin\WCFServiceWebRole1.dll
+D:\Projects\Bapet\RedPill\MeowMeow\knockknock.readify.net\bin\WCFServiceWebRole1.pdb
+D:\Projects\Bapet\RedPill\MeowMeow\knockknock.readify.net\bin\Microsoft.WindowsAzure.Diagnostics.dll
+D:\Projects\Bapet\RedPill\MeowMeow\knockknock.readify.net\bin\MonAgentListener.dll
+D:\Projects\Bapet\RedPill\MeowMeow\knockknock.readify.net\obj\Debug\knockknock.readify.net.csprojResolveAssemblyReference.cache
+D:\Projects\Bapet\RedPill\MeowMeow\knockknock.readify.net\obj\Debug\WCFServiceWebRole1.dll
+D:\Projects\Bapet\RedPill\MeowMeow\knockknock.readify.net\obj\Debug\WCFServiceWebRole1.pdb

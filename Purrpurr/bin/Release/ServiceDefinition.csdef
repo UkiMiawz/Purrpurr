@@ -22,7 +22,7 @@
     </Endpoints>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="C:\Users\melcec\Documents\Visual Studio 2013\Projects\MeowMeow\Purrpurr\rcf\Release\knockknock.readify.netContent\" />
+        <SourceDirectory path="D:\Projects\Bapet\RedPill\Purrpurr\rcf\Release\knockknock.readify.netContent\" />
       </Content>
     </Contents>
   </WebRole>

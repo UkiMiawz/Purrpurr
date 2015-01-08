@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Purrpurr" generation="1" functional="0" release="0" Id="2a11d12c-3fa7-406a-83c3-3aa8282436de" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Purrpurr" generation="1" functional="0" release="0" Id="4ffa7bf3-e187-4918-8bd8-7c14fb5cad5c" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="PurrpurrGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -32,7 +32,7 @@
       </maps>
       <components>
         <groupHascomponents>
-          <role name="knockknock.readify.net" generation="1" functional="0" release="0" software="C:\Users\melcec\Documents\Visual Studio 2013\Projects\MeowMeow\Purrpurr\csx\Release\roles\knockknock.readify.net" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="-1" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
+          <role name="knockknock.readify.net" generation="1" functional="0" release="0" software="D:\Projects\Bapet\RedPill\Purrpurr\csx\Release\roles\knockknock.readify.net" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="-1" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
             <componentports>
               <inPort name="Endpoint1" protocol="http" portRanges="80" />
             </componentports>
@@ -59,9 +59,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="56948532-b9a9-4870-87a6-4403cf215a22" ref="Microsoft.RedDog.Contract\ServiceContract\PurrpurrContract@ServiceDefinition">
+    <implementation Id="9341f968-5dc9-481e-a118-11900f52fed4" ref="Microsoft.RedDog.Contract\ServiceContract\PurrpurrContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="8f58d72b-41a6-4917-b6fa-718c265a4743" ref="Microsoft.RedDog.Contract\Interface\knockknock.readify.net:Endpoint1@ServiceDefinition">
+        <interfaceReference Id="350058da-965c-4201-9a7c-e75c122af17e" ref="Microsoft.RedDog.Contract\Interface\knockknock.readify.net:Endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/Purrpurr/PurrpurrGroup/knockknock.readify.net:Endpoint1" />
           </inPort>

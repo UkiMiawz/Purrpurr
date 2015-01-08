@@ -5,3 +5,10 @@ C:\Users\melcec\Documents\Visual Studio 2013\Projects\MeowMeow\Purrpurr\obj\Rele
 C:\Users\melcec\Documents\Visual Studio 2013\Projects\MeowMeow\Purrpurr\obj\Release\knockknock.readify.net\bin\WCFServiceWebRole1.dll
 C:\Users\melcec\Documents\Visual Studio 2013\Projects\MeowMeow\Purrpurr\obj\Release\knockknock.readify.net\RedPill.svc
 C:\Users\melcec\Documents\Visual Studio 2013\Projects\MeowMeow\Purrpurr\obj\Release\knockknock.readify.net\Web.config
+D:\Projects\Bapet\RedPill\Purrpurr\bin\Release\ServiceConfiguration.cscfg
+D:\Projects\Bapet\RedPill\Purrpurr\bin\Release\ServiceDefinition.csdef
+D:\Projects\Bapet\RedPill\Purrpurr\obj\Release\knockknock.readify.net\bin\Microsoft.WindowsAzure.Diagnostics.dll
+D:\Projects\Bapet\RedPill\Purrpurr\obj\Release\knockknock.readify.net\bin\MonAgentListener.dll
+D:\Projects\Bapet\RedPill\Purrpurr\obj\Release\knockknock.readify.net\bin\WCFServiceWebRole1.dll
+D:\Projects\Bapet\RedPill\Purrpurr\obj\Release\knockknock.readify.net\RedPill.svc
+D:\Projects\Bapet\RedPill\Purrpurr\obj\Release\knockknock.readify.net\Web.config

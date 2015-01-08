@@ -15,14 +15,14 @@
     <Property name="SetConfiguration" value="Configuration=Release" />
     <Property name="SetPlatform" value="Platform=AnyCPU" />
     <Property name="RoleTargetFramework" value="v4.5" />
-    <Property name="OutputDir" value="C:\Users\melcec\Documents\Visual Studio 2013\Projects\MeowMeow\Purrpurr\obj\Release\knockknock.readify.net\" />
+    <Property name="OutputDir" value="D:\Projects\Bapet\RedPill\Purrpurr\obj\Release\knockknock.readify.net\" />
     <Property name="EntryPoint" value="WCFServiceWebRole1.dll" />
-    <Property name="SourceDir" value="C:\Users\melcec\Documents\Visual Studio 2013\Projects\MeowMeow\MeowMeow\knockknock.readify.net\" />
-    <Property name="SitePhysicalPath" value="C:\Users\melcec\Documents\Visual Studio 2013\Projects\MeowMeow\Purrpurr\obj\Release\knockknock.readify.net\" />
+    <Property name="SourceDir" value="D:\Projects\Bapet\RedPill\MeowMeow\knockknock.readify.net\" />
+    <Property name="SitePhysicalPath" value="D:\Projects\Bapet\RedPill\Purrpurr\obj\Release\knockknock.readify.net\" />
     <Property name="TargetRuntimeVersion" value="v4.0" />
   </Properties>
   <Sites>
-    <Site name="Web" physicalDirectory="C:\Users\melcec\Documents\Visual Studio 2013\Projects\MeowMeow\Purrpurr\obj\Release\knockknock.readify.net\">
+    <Site name="Web" physicalDirectory="D:\Projects\Bapet\RedPill\Purrpurr\obj\Release\knockknock.readify.net\">
       <Bindings>
         <Binding name="Endpoint1" endpointName="Endpoint1" />
       </Bindings>
