@@ -1,0 +1,4 @@
+C:\Users\melcec\documents\visual studio 2013\Projects\MeowMeow\Purrpurr\bin\Debug\ServiceConfiguration.cscfg
+C:\Users\melcec\documents\visual studio 2013\Projects\MeowMeow\Purrpurr\bin\Debug\ServiceDefinition.csdef
+D:\Projects\Bapet\RedPill\Purrpurr\bin\Debug\ServiceConfiguration.cscfg
+D:\Projects\Bapet\RedPill\Purrpurr\bin\Debug\ServiceDefinition.csdef

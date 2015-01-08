@@ -1,0 +1,7 @@
+C:\Users\melcec\documents\visual studio 2013\Projects\MeowMeow\MeowMeow\WCFServiceWebRole1\bin\WCFServiceWebRole1.dll.config
+C:\Users\melcec\documents\visual studio 2013\Projects\MeowMeow\MeowMeow\WCFServiceWebRole1\bin\WCFServiceWebRole1.dll
+C:\Users\melcec\documents\visual studio 2013\Projects\MeowMeow\MeowMeow\WCFServiceWebRole1\bin\WCFServiceWebRole1.pdb
+C:\Users\melcec\documents\visual studio 2013\Projects\MeowMeow\MeowMeow\WCFServiceWebRole1\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\melcec\documents\visual studio 2013\Projects\MeowMeow\MeowMeow\WCFServiceWebRole1\bin\MonAgentListener.dll
+C:\Users\melcec\documents\visual studio 2013\Projects\MeowMeow\MeowMeow\WCFServiceWebRole1\obj\Release\WCFServiceWebRole1.dll
+C:\Users\melcec\documents\visual studio 2013\Projects\MeowMeow\MeowMeow\WCFServiceWebRole1\obj\Release\WCFServiceWebRole1.pdb
