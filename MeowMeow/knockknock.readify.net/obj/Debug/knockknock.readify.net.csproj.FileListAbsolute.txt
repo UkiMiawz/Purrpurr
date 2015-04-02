@@ -18,6 +18,5 @@ D:\Projects\Bapet\RedPill\MeowMeow\knockknock.readify.net\bin\WCFServiceWebRole1
 D:\Projects\Bapet\RedPill\MeowMeow\knockknock.readify.net\bin\WCFServiceWebRole1.pdb
 D:\Projects\Bapet\RedPill\MeowMeow\knockknock.readify.net\bin\Microsoft.WindowsAzure.Diagnostics.dll
 D:\Projects\Bapet\RedPill\MeowMeow\knockknock.readify.net\bin\MonAgentListener.dll
-D:\Projects\Bapet\RedPill\MeowMeow\knockknock.readify.net\obj\Debug\knockknock.readify.net.csprojResolveAssemblyReference.cache
 D:\Projects\Bapet\RedPill\MeowMeow\knockknock.readify.net\obj\Debug\WCFServiceWebRole1.dll
 D:\Projects\Bapet\RedPill\MeowMeow\knockknock.readify.net\obj\Debug\WCFServiceWebRole1.pdb

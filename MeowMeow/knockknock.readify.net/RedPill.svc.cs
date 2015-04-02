@@ -14,6 +14,7 @@ namespace knockknock.readify.net
     [ServiceBehavior(IncludeExceptionDetailInFaults = true)]
     public class RedPill : IRedPill
     {
+
         public Guid WhatIsYourToken()
         {
             return new Guid("5bdf63bc-97cf-4d9e-ae40-21d5d269205d");
@@ -26,17 +27,32 @@ namespace knockknock.readify.net
 
         public long FibonacciNumber(long n)
         {
-            var previousValue = -1;
-            var currentResult = 1;
+            if (!(-92 <= n && n <= 92))
+                throw new ArgumentOutOfRangeException();
 
-            for (var i = 0; i <= n; ++i)
+            if (n < 0) return Fibonacci(-n);
+            return Fibonacci(n);
+        }
+
+        // Fast doubling algorithm
+        private static long Fibonacci(long n)
+        {
+            long a = 0;
+            long b = 1;
+            for (int i = 31; i >= 0; i--)
             {
-                var sum = currentResult + previousValue;
-                previousValue = currentResult;
-                currentResult = sum;
+                long d = a * (b * 2 - a);
+                long e = a * a + b * b;
+                a = d;
+                b = e;
+                if ((((uint)n >> i) & 1) != 0)
+                {
+                    long c = a + b;
+                    a = b;
+                    b = c;
+                }
             }
-
-            return currentResult;
+            return a;
         }
 
         public Task<long> FibonacciNumberAsync(long n)
@@ -48,8 +64,14 @@ namespace knockknock.readify.net
         {
             if(a + b + c != 180)
                 return TriangleType.Error;
+            
+            else if (a <= 0 || b <= 0 || c <= 0)
+                return TriangleType.Error;
 
-            if (a == b && a == c && b == c)
+            else if (!(a < b + c && b < a + c && c < a + b)) 
+                return TriangleType.Error;
+
+            else if (a == b && b == c)
                 return TriangleType.Equilateral;
             else if (a == b || a == c || b == c)
                 return TriangleType.Equilateral;
@@ -64,9 +86,25 @@ namespace knockknock.readify.net
 
         public string ReverseWords(string s)
         {
-            var arr = s.ToCharArray();
-            Array.Reverse(arr);
-            return new string(arr);
+            if (s == null)
+                throw new ArgumentNullException();
+
+            var result = new StringBuilder(s.Length);
+
+            int start = 0;
+
+            while (start < s.Length)
+            {
+                int end = start;
+                while (end < s.Length && !Char.IsWhiteSpace(s[end])) end++;
+
+                for (int i = end - 1; i >= start; i--) result.Append(s[i]);
+
+                start = end;
+                while (start < s.Length && Char.IsWhiteSpace(s[start])) result.Append(s[start++]);
+            }
+
+            return result.ToString();
         }
 
         public Task<string> ReverseWordsAsync(string s)

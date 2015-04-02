@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Purrpurr" generation="1" functional="0" release="0" Id="4ffa7bf3-e187-4918-8bd8-7c14fb5cad5c" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Purrpurr" generation="1" functional="0" release="0" Id="f52c530a-3d40-48fe-99e8-5ddff11ba7f4" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="PurrpurrGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -59,9 +59,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="9341f968-5dc9-481e-a118-11900f52fed4" ref="Microsoft.RedDog.Contract\ServiceContract\PurrpurrContract@ServiceDefinition">
+    <implementation Id="1e4e5f3c-74c0-4b26-b9ac-41aeb406acec" ref="Microsoft.RedDog.Contract\ServiceContract\PurrpurrContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="350058da-965c-4201-9a7c-e75c122af17e" ref="Microsoft.RedDog.Contract\Interface\knockknock.readify.net:Endpoint1@ServiceDefinition">
+        <interfaceReference Id="da7e6fe3-a69d-4a0d-a16c-733a83f1fe6d" ref="Microsoft.RedDog.Contract\Interface\knockknock.readify.net:Endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/Purrpurr/PurrpurrGroup/knockknock.readify.net:Endpoint1" />
           </inPort>
